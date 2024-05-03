@@ -8,10 +8,10 @@ This is a simple project that can be used to start new python application.
 
 ## Installation
 
-Install this library using `pip`:
 ```bash
-pip install git+https://github.com/chiplukes/example-python-application
+git clone git+https://github.com/chiplukes/example-python-application
 ```
+
 ## Usage
 
 * throughout project rename ```example-python-application``` with your actual hyphenated project name.
@@ -23,7 +23,7 @@ pip install git+https://github.com/chiplukes/example-python-application
 
 ## Development
 
-To contribute to this library, first checkout the code. Then create a new virtual environment:
+To use this application, first checkout the code. Then create a new virtual environment:
 ```bash
 cd example-python-application
 python -m venv .venv
@@ -33,9 +33,6 @@ source venv/bin/activate
 Now install the dependencies and test dependencies:
 ```bash
 python -m pip install -e .
-
-# maybe?
-pip install -e '.[test]'
 ```
 
 Running main application
@@ -45,5 +42,6 @@ python -m example_python_application
 
 To run the tests:
 ```bash
+pip install -e '.[test]'
 pytest
 ```

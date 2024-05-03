@@ -1,4 +1,7 @@
-from python_example_application import main_module_function
+import python_example_application
 
-def test_main_module_function():
-    assert main_module_function() == True
+def test_python_example_application_fun():
+    assert python_example_application.python_example_application_fun() == True
+
+def test_complex_submodule1a_fun():
+    assert python_example_application.complex_submodule1a.fun() == True
