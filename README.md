@@ -1,6 +1,7 @@
 # example-python-application
 
-[![Tests](https://github.com/chiplukes/example-python-application/actions/workflows/test.yml/badge.svg)](https://github.com/chiplukes/example-python-application/actions/workflows/test.yml)
+[![Tests Status](./reports/junit/junit-badge.svg?dummy=8484744)](./reports/junit/report.html)
+[![Coverage Status](./reports/coverage/coverage-badge.svg?dummy=8484744)](./reports/coverage/index.html)
 [![Changelog](https://img.shields.io/github/v/release/chiplukes/example-python-application?include_prereleases&label=changelog)](https://github.com/chiplukes/example-python-application/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/chiplukes/example-python-application/blob/main/LICENSE)
 
