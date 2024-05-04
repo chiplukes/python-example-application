@@ -16,7 +16,8 @@ classifiers = [
     "Operating System :: OS Independent"
 ]
 dependencies = [
-"python-example-package@git+https://github.com/chiplukes/python-example-package"
+"python-example-package@git+https://github.com/chiplukes/python-example-package",
+"pre-commit"
 ]
 
 [build-system]
@@ -57,4 +58,3 @@ ignore = ["E501"]
 #  # TOML basic string (double-quotes, backslash and other characters need escaping)
 #  # TOML literal string (single-quotes, no escaping necessary)
 #]
-

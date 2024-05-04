@@ -1,11 +1,9 @@
-
-# Import the main application
-import python_example_application
 import argparse
 import importlib.metadata
 
-if __name__ == "__main__":
+import python_example_application
 
+if __name__ == "__main__":
     print(f"{__file__}:__main__")
 
     parser = argparse.ArgumentParser()
@@ -15,17 +13,17 @@ if __name__ == "__main__":
 
     # Optional verbosity counter (eg. -v, -vv, -vvv, etc.)
     parser.add_argument(
-        "-v",
-        "--verbose",
-        action="count",
-        default=0,
-        help="Verbosity (-v, -vv, etc)")
+        "-v", "--verbose", action="count", default=0, help="Verbosity (-v, -vv, etc)"
+    )
 
     # Specify output of "--version"
     parser.add_argument(
         "--version",
         action="version",
-        version="%(prog)s (version {version})".format(version=importlib.metadata.version('python_example_application')))
+        version="%(prog)s (version {version})".format(
+            version=importlib.metadata.version("python_example_application")
+        ),
+    )
 
     args = parser.parse_args()
 
